@@ -1,16 +1,14 @@
-const cards = document.querySelectorAll(".card-container");
-console.log(cards);
 
-cards.forEach(element => {
-    element.addEventListener("click", () => {
-        console.log("i got clicked");
-        removeActive();
-        element.classList.add("active");
-    })
+//$("h2").text("Hello");
+
+$(".panel").click(() => {
+    console.log("clicked a div");
+    console.log(this);
 });
 
-function removeActive() {
-    cards.forEach(element => {
-        element.classList.remove("active");
-    });
-}
+$("h2").click(function() {
+    console.log(this);
+  $(this).hide();
+});
+
+ console.log($(".panel")[0]);

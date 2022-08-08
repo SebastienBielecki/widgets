@@ -1,6 +1,13 @@
-const open = document.getElementById("open");
-const close = document.getElementById("close");
-const container = document.querySelector(".container");
 
-open.addEventListener("click", () => container.classList.add("show-nav"));
-close.addEventListener("click", () => container.classList.remove("show-nav"));
+
+// Code without jQuery;
+// const open = document.getElementById("open");
+// const close = document.getElementById("close");
+// const container = document.querySelector(".container");
+
+// open.addEventListener("click", () => container.classList.add("show-nav"));
+// close.addEventListener("click", () => container.classList.remove("show-nav"));
+
+// jQuery code
+$("#open").click(() => $(".container").addClass("show-nav"));
+$("#close").click(() => $(".container").removeClass("show-nav"));
