@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+    --main-bg-color-1: #18978F;
+    --main-bg-color-2: #377D71;
+    --project-bg-color: #F7ECDE;
+    --main-text-color: white;
+    --project-h2-color: #18978F;
+    --project-p-color: #3F4E4F;
+    --main-font: 'Ubuntu', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-image: linear-gradient(45deg, var(--main-bg-color-1), var(--main-bg-color-2));
+    
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--main-text-color);
+    width: 100vw
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 20PX;
+}
+
+
+p {
+
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* height: 300px; */
+    /* margin-top: 100px; */
+    align-items:stretch;
+    justify-content: space-around;
+    width: 90vw;
+    margin: auto;
+    /* gap: 10px 10px; */
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-bottom: 100px;
+    
+    
+}
+
+
+.project-container {
+    flex-grow: 1;
+    font-family: var(--secondary-font);
+    width: 300px;
+    height: 400px;
+    background-color: var(--project-bg-color);
+    padding: 20px;
+    /* margin: auto; */
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px black;
+    transition: scale 0.3s;
+    
+}
+
+.project-container:hover {
+    scale: 1.05;
+}
+
+.project-container h2 {
+    color: var(--project-h2-color);
+    font-weight: bold;
+}
+
+.project-container p {
+    color: var(--project-p-color);
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 150;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px grey;
+}
