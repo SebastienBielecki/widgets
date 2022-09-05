@@ -49,6 +49,12 @@ const projects = [
         name: "Form Wave Animaton",
         description: "When clicking on input, the label moves up in a wave movement.",
         link: "./08-Form-wave-animation"
+    },
+    {
+        id: 9,
+        name: "Sound board",
+        description: "Plays sound when clicking on a button",
+        link: "./09-Soundboard"
     }
 ]
 
