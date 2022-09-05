@@ -54,7 +54,7 @@ const projects = [
         id: 9,
         name: "Sound board",
         description: "Plays sound when clicking on a button",
-        link: "./09-Soundboard"
+        link: "./09-Sound-board"
     }
 ]
 
