@@ -55,6 +55,12 @@ const projects = [
         name: "Sound board",
         description: "Plays sound when clicking on a button",
         link: "./09-Sound-board"
+    },
+    {
+        id: 10,
+        name: "Dad Jokes",
+        description: "Fetch jokes from an API and display them",
+        link: "./09-Sound-board"
     }
 ]
 
