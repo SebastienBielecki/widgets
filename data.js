@@ -60,7 +60,7 @@ const projects = [
         id: 10,
         name: "Dad Jokes",
         description: "Fetch jokes from an API and display them",
-        link: "./09-Sound-board"
+        link: "./10-Dad-jokes"
     }
 ]
 
