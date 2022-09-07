@@ -61,6 +61,12 @@ const projects = [
         name: "Dad Jokes",
         description: "Fetch jokes from an API and display them",
         link: "./10-Dad-jokes"
+    },
+    {
+        id: 11,
+        name: "Event keyCodes",
+        description: "Display the Key Code of any pressed key",
+        link: "./11-Event-keyCodes"
     }
 ]
 
