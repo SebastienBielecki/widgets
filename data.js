@@ -67,6 +67,12 @@ const projects = [
         name: "Event keyCodes",
         description: "Display the Key Code of any pressed key",
         link: "./11-Event-keyCodes"
+    },
+    {
+        id: 12,
+        name: "FAQ Collapse",
+        description: "Toggle on/off FAQ",
+        link: "./12-FAQ-Collapse"
     }
 ]
 
